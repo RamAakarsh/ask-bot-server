@@ -1,0 +1,18 @@
+{
+	"http": {
+		"port": 8082,
+		"hostname": "localhost"
+	},
+	"express": {
+		"routes": {
+			"path": {
+				"v1": "/api/v1"
+			}
+		}
+	},
+    "openAIKey":{
+        "apiKey":"",
+		"enabled":true,
+		"limit":4
+    }
+}

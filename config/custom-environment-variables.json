@@ -1,0 +1,11 @@
+{
+	"http": {
+		"port": "PORT"
+	},
+	"express": {},
+    "openAIKey":{
+        "apiKey":"OPEN_AI_KEY",
+		"enabled":"OPEN_AI_ENABLED",
+		"limit":"OPEN_AI_CHAT_LIMIT"
+    }
+}
