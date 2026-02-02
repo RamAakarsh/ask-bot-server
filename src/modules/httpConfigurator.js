@@ -7,7 +7,7 @@ const onListening = (port) => {
 };
 
 module.exports.configure = (app, config) => {
-	const port = _.isEmpty(process.env.PORT) ? config.get('http.port') : process.env.PORT;
+	const port = 8080;//_.isEmpty(process.env.PORT) ? config.get('http.port') : process.env.PORT;
 	const server = app.listen(port, onListening(port));
 	socketServerConfig(server)
     connectWithOpenAi();
